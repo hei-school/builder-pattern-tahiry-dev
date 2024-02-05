@@ -140,3 +140,5 @@ function client(director) {
 
 const pizzaDirector = new PizzaDirector();
 client(pizzaDirector);
+
+module.exports = { PizzaBuilder, MargheritaPizzaBuilder, PepperoniPizzaBuilder, PizzaDirector };
